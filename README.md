@@ -1,31 +1,34 @@
-📌 Characteristics of CLI Library Manager
+📚 CLI Library Manager
+A simple and efficient command-line-based library management system that allows users to store, search, and manage books. This project keeps track of book details and read status while ensuring data persistence.
+
+🚀 Features
 🔹 Interactive CLI-Based System
-Simple and intuitive command-line interface (CLI) for managing books efficiently.
-User-friendly prompts for adding, searching, and displaying books.
+Simple and user-friendly command-line interface (CLI).
+Easy navigation for adding, searching, and displaying books.
 🔹 Persistent Data Storage
-Uses a CSV-based file (library.txt) to store books permanently.
-Ensures that book records are saved even after exiting the program.
+Uses a CSV-based file (library.txt) to store book records permanently.
+Ensures that books remain saved even after exiting the program.
 🔹 Dynamic Book Management
-Allows adding, removing, and searching books based on title or author.
+Users can add, remove, and search books by title or author.
 Keeps track of book genres and publication years.
 🔹 Read Status Tracking
 Users can mark books as read or unread.
-Provides an overview of how many books have been read.
+Provides an overview of reading progress.
 🔹 Real-Time Statistics
-Displays total books, read books, and reading progress in percentage.
-Helps users keep track of their reading habits.
+Displays total books, read books, and reading percentage.
+Helps users monitor their reading habits.
 🔹 Robust Input Validation
-Ensures that valid data (such as year range 1000-3000) is entered.
-Prevents invalid input from disrupting the program.
+Ensures valid input (e.g., year range 1000-3000).
+Prevents invalid data from disrupting the program.
 🔹 Efficient Search & Retrieval
 Supports case-insensitive search for books by title or author.
-Displays matching results instantly.
+Instantly displays matching results.
 🔹 Modular & Maintainable Code
-Well-structured functions for better code readability.
+Well-structured functions for readability and maintainability.
 Easy to expand or modify in the future.
 🔹 Lightweight & Fast
-Runs smoothly without requiring any external dependencies.
+Runs smoothly without requiring external dependencies.
 Works on any system with Python installed.
 🔹 Portable & Open Source
-Can be used on Windows, macOS, and Linux.
+Compatible with Windows, macOS, and Linux.
 Open-source and customizable for personal use.
