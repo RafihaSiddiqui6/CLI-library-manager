@@ -39,9 +39,9 @@ def add_book(books):
     
     # Get year with simple validation
     year = 0
-    while year < 1000 or year > 3000:
+    while year < 1000 or year > 2025:
         try:
-            year = int(input("Publication Year (1000-3000): "))
+            year = int(input("Publication Year (1000-2025): "))
         except:
             print("Please enter a valid year!")
     
